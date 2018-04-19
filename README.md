@@ -1,3 +1,7 @@
+# eeg-viz
+A website for visualizing EEG signals from a publicly available [EEG dataset](https://archive.ics.uci.edu/ml/datasets/eeg+database) from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php).
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/jmcarpenter2/eeg-viz/edit/master/README.md) to maintain and preview the content for your website in Markdown files.

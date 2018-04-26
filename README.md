@@ -8,5 +8,5 @@ A website for visualizing EEG signals from a publicly available [EEG dataset](ht
 
 
 # Visualization of Subject Network
-[![Subject Network](http://img.youtube.com/vi/bRbrVv1mMPY/0.jpg)](http://www.youtube.com/watch?v=bRbrVv1mMPY "")
+[![Subject Network](http://img.youtube.com/vi/PB369jOfRq4/0.jpg)](https://youtu.be/PB369jOfRq4 "")
 

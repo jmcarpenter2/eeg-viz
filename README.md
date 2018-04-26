@@ -3,7 +3,7 @@ A website for visualizing EEG signals from a publicly available [EEG dataset](ht
 
 
 # Visualization of EEG Electrodes
-![Video](/asssets/direct_comparison.mp4)
+![Video](/assets/direct_comparison.mp4)
 
 
 # Visualization of Subject Network

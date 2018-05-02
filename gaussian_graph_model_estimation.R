@@ -2,7 +2,7 @@ library(tidyverse)
 library(feather)
 library(huge)
 
-binned.dat <- as.data.frame(feather('data/binned_data'))
+binned.dat <- as.data.frame(feather('data/binned_data_notsmoothed'))
 
 subject.dat <- binned.dat %>% group_by_(.dots=c('bin', 'subject')) %>% 
                summarise_all(funs(mean)) %>% subset(select=-channel)
@@ -19,6 +19,6 @@ for (tp in 0:max(subject.dat$bin)){
   
   adj.mat <- as.data.frame(as.matrix(one.huge.refit$refit))
   
-  write_csv(adj.mat, paste0('data/adj_mat_tp', tp, '.csv'))
+  write_csv(adj.mat, paste0('data/subj_adjmat_tp', tp, '.csv'))
 }
 

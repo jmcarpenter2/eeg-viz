@@ -23,7 +23,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Top</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -68,7 +68,7 @@
     <section id="about">
       <div class="container viz">
         <div class="row">
-          <div class="col-lg-8 mx-auto viz">
+          <div class="mx-auto viz">
             <h2>About this page</h2>
             <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
             <ul>
@@ -85,7 +85,7 @@
     <section id="avg_voltage" class="bg-light">
       <div class="container viz">
         <div class="row">
-          <div class="col-lg-8 mx-auto viz">
+          <div class="mx-auto viz">
             <h2>What is the average voltage per group?</h2>
             <p class="lead">At approximately time point 120, the control subjects experience a deactivation of voltage as compared to their alcoholic counterparts.</p>
             <iframe width=100% height=100% frameborder="4" style='float: centre;' scrolling="no" src="./assets/average_voltage.html" ></iframe>.
@@ -97,7 +97,7 @@
     <section id="avg_voltage-by-subject" class="bg-light">
       <div class="container viz">
         <div class="row">
-          <div class="col-lg-8 mx-auto viz">
+          <div class="mx-auto viz">
             <h2>What is the average voltage per subject?</h2>
             <p class="lead">There is a great deal of variability in the alcoholic subjects. Controls more consistently experience the deactivation at time point 120.</p>
             <iframe width=100% height=100% frameborder="4" style='float: centre;' scrolling="no" src="./assets/average_voltage_per_subject.html" ></iframe>.
@@ -109,7 +109,7 @@
     <section id="avg_voltage-by-channel" class="bg-light">
       <div class="container viz">
         <div class="row">
-          <div class="col-lg-8 mx-auto viz">
+          <div class="mx-auto viz">
             <h2>What is the average voltage per channel?</h2>
             <p class="lead">A subset of channels in the control subjects are highly consistently driving the deactivation that is pulling the control mean down at  time point 120.</p>
             <iframe width=100% height=100% frameborder="4" style='float: centre;' scrolling="no" src="./assets/average_voltage_per_channel.html" ></iframe>.
@@ -121,7 +121,7 @@
     <section id="voltage-heat-map" class="bg-light">
       <div class="container viz">
         <div class="row">
-          <div class="col-lg-8 mx-auto viz">
+          <div class="mx-auto viz">
             <h2>Again, what is the average voltage per channel?</h2>
             <p class="lead">From this visualization, we can see the channels that are driving the consistent deactivation at time point 120 for the control subjects as compared to the alcoholic subjects.</p>
             <iframe width=100% height=100% frameborder="4" style='float: centre;' scrolling="no" src="./assets/channel_heat_map.html" ></iframe>.
@@ -133,7 +133,7 @@
     <section id="electrode" class="bg-light">
       <div class="container viz">
         <div class="row">
-          <div class="col-lg-8 mx-auto viz">
+          <div class="mx-auto viz">
             <h2>Raw Electrical Activity at Electrodes</h2>
             <p class="lead">It can be helpful to watch the channel activity fluctuate through time to gain further insight into spatial relationships in the flow of electrical signals.</p>
             <iframe width=100% height=100% frameborder="4" style='float: centre;' scrolling="no" src="./assets/direct_comparison.html" ></iframe>.
@@ -145,7 +145,7 @@
     <section id="electrode-network">
       <div class="container viz">
         <div class="row">
-          <div class="col-lg-8 mx-auto viz">
+          <div class="mx-auto viz">
             <h2>Electrode Channel Networks</h2>
             <p class="lead">To look more closely at which channels are co-dependent, we fit a dynamic gaussian graphical model which connects two nodes in the graph if they are conditionally dependent on eachother. This visualization displays which electrodes display similar voltages over each time bin, to better understand the flow of electrical signals.</p>
                 <iframe width=100% height=100% frameborder="4" style='float: centre;' scrolling="no" src="./assets/channel_network.html" ></iframe>
@@ -157,7 +157,7 @@
     <section id="subject-network">
       <div class="container viz">
         <div class="row">
-          <div class="col-lg-8 mx-auto viz">
+          <div class="mx-auto viz">
             <h2>Subject Network</h2>
             <p class="lead">Finally, we fit another dynamic gaussian graphical model to the data at the subject level, averaging over all channels. We might expect that alcoholic subjects are more related to alcoholics and controls to controls. This visualization shows us that at various time points we see patterns of activity that do not necessarily reflect this expectation. Red borders indicate alcoholic subjects, blue borders indicate control subjects. The color of each node is more red when there are more alcoholic connections than control connections, and more blue when there are more control connections than alcoholic connections.</p>
                <iframe width=100% height=100% frameborder="4" style='float: centre;' scrolling="no" src="./assets/subject_network.html" ></iframe>

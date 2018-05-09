@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
+body { 
+  width: 100%
+}
+
 header {
   padding: 154px 0 100px;
   background-image: url("../static/eeg.jpg");
@@ -22,7 +26,7 @@ section {
 
 .viz {
 
-  height: 600px;
-  width: 100%;
+  height: 650px;
+  width: 1600px;
 
 }

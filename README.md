@@ -3,8 +3,10 @@ A website for visualizing EEG signals from a publicly available [EEG dataset](ht
 
 
 # Visualization of EEG Electrodes
-[![EEG Electrode Activity](http://img.youtube.com/vi/nYjSSXNnqRw/0.jpg)](http://www.youtube.com/watch?v=nYjSSXNnqRw "")
+<iframe width=100% height=100% frameborder="4" style='float: centre;' scrolling="no" src="/assets/direct_comparison.html" ></iframe>
+
+# Visualization of Channel Network
+<iframe width=100% height=100% frameborder="4" style='float: centre;' scrolling="no" src="/assets/channel_network.html" ></iframe>
 
 # Visualization of Subject Network
-[![Subject Network](http://img.youtube.com/vi/PB369jOfRq4/0.jpg)](https://youtu.be/PB369jOfRq4 "")
-
+<iframe width=100% height=100% frameborder="4" style='float: centre;' scrolling="no" src="/assets/subject_network.html" ></iframe>

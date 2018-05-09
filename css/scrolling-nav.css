@@ -6,7 +6,8 @@
 
 header {
   padding: 154px 0 100px;
-  background-image: url("../static/eeg.jpg")
+  background-image: url("../static/eeg.jpg");
+  color: black;
 }
 
 @media (min-width: 992px) {

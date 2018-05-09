@@ -1,33 +1,129 @@
----
-layout: index
-title: eeg-viz
----
-
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
 
-  <title>eeg-viz</title>
-  <meta name="eeg-viz" content="Visual comparison of EEG activity">
-  <meta name="Jason Carpenter & Devin Bowers" content="SitePoint">
-</head>
+  <head>
 
-<body>
-  <h1>eeg-viz</h1>
-  <p>A website for visualizing EEG signals from a publicly available <a href='https://archive.ics.uci.edu/ml/datasets/eeg+database'>EEG Database</a> from the <a href='https://archive.ics.uci.edu/ml/index.php'>UCI Machine Learning Repository</a></p>
-  
-  <h2>Visualization of EEG Electrodes</h2>
-  <iframe width=1600px height=800px frameborder="4" style='float: centre;' scrolling="no" src="./assets/direct_comparison.html" ></iframe>
-  
-  <h2>Visualization of Channel Network</h2>
-    <iframe width=1600px height=800px frameborder="4" style='float: centre;' scrolling="no" src="./assets/channel_network.html" ></iframe>
-  
-  <h2>Visualization of Subject Network</h2>
-    <iframe width=1600px height=800px frameborder="4" style='float: centre;' scrolling="no" src="./assets/subject_network.html" ></iframe>
-  
-  
-</body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Scrolling Nav - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#electrode">EEG Electrodes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#electrode-network">Electrode Channel Network</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#subject-network">Subject Network</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-primary text-white">
+      <div class="container text-center">
+        <h1>Welcome to Scrolling Nav</h1>
+        <p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container viz">
+        <div class="row">
+          <div class="col-lg-8 mx-auto viz">
+            <h2>About this page</h2>
+            <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+            <ul>
+              <li>Clickable nav links that smooth scroll to page sections</li>
+              <li>Responsive behavior when clicking nav links perfect for a one page website</li>
+              <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
+              <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="electrode" class="bg-light">
+      <div class="container viz">
+        <div class="row">
+          <div class="col-lg-8 mx-auto viz">
+            <h2>Visualization of Raw Electrical Activity at Electrodes</h2>
+            <p class="lead">Description</p>
+            <iframe width=100% height=100% frameborder="4" style='float: centre;' scrolling="no" src="./assets/direct_comparison.html" ></iframe>.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="electrode-network">
+      <div class="container viz">
+        <div class="row">
+          <div class="col-lg-8 mx-auto viz">
+            <h2>Visualization of Electrode Channel Networks</h2>
+            <p class="lead">Description.</p>
+                <iframe width=100% height=100% frameborder="4" style='float: centre;' scrolling="no" src="./assets/channel_network.html" ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="subject-network">
+      <div class="container viz">
+        <div class="row">
+          <div class="col-lg-8 mx-auto viz">
+            <h2>Visualization of Subject Network</h2>
+            <p class="lead">Description.</p>
+               <iframe width=100% height=100% frameborder="4" style='float: centre;' scrolling="no" src="./assets/subject_network.html" ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
 </html>
-

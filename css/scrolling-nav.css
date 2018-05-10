@@ -30,3 +30,7 @@ section {
   width: 1600px;
 
 }
+
+.bold {
+  font-weight:bold;
+}

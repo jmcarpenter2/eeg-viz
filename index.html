@@ -23,7 +23,11 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
       <div class="container">
+<<<<<<< HEAD
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Drunk Memory</a>
+=======
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Top</a>
+>>>>>>> 821c9e4037c47f78aeeb2e31192b3a0c888cb2ad
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -68,7 +72,7 @@
     <section id="about">
       <div class="container viz">
         <div class="row">
-          <div class="col-lg-8 mx-auto viz">
+          <div class="mx-auto viz">
             <h2>Just how much does alcohol affect your brain waves?</h2>
             <p class="lead">A study conducted in the 1990's attempted to try to understand just how alcoholism
             affected brain activity in patients.  In an effort to understand this behavior, subjects were hooked to
@@ -80,6 +84,7 @@
             why the subjects brains behave the way the way they do, we are curious about how we can convey how
             differently subjects brains behave.</p>
 
+
           </div>
         </div>
       </div>
@@ -88,12 +93,13 @@
     <section id="avg_voltage" class="bg-light">
       <div class="container viz">
         <div class="row">
-          <div class="col-lg-8 mx-auto viz">
+          <div class="mx-auto viz">
             <h2>What is the average voltage per test group?</h2>
             <p class="lead">As an initial step, we look at how average voltage across the brain looks over the course
               of the experiment.  We can clearly see where the image is show to the subjects around time 60.  Then,
               at approximately time point 120, the control subjects experience a significant deactivation of
               voltage as compared to their alcoholic counterparts.</p>
+
             <iframe width=100% height=100% frameborder="4" style='float: centre;' scrolling="no" src="./assets/average_voltage.html" ></iframe>.
           </div>
         </div>
@@ -103,7 +109,7 @@
     <section id="avg_voltage-by-subject" class="bg-light">
       <div class="container viz">
         <div class="row">
-          <div class="col-lg-8 mx-auto viz">
+          <div class="mx-auto viz">
             <h2>What is the average voltage per subject?</h2>
             <p class="lead">Next, we break the previous plot down by subject: 10 control and 10 alcoholic.
               Immediately, we can see that there is a great deal of variability in the alcoholic subjects, whereas
@@ -117,7 +123,7 @@
     <section id="avg_voltage-by-channel" class="bg-light">
       <div class="container viz">
         <div class="row">
-          <div class="col-lg-8 mx-auto viz">
+          <div class="mx-auto viz">
             <h2>What is the average voltage per channel?</h2>
             <p class="lead">When we break these down by channel, we can see some consistent behavior between the
               two groups, especially around time 60, where the voltage jumps up for controls, but not for alcoholics.
@@ -132,7 +138,7 @@
     <section id="voltage-heat-map" class="bg-light">
       <div class="container viz">
         <div class="row">
-          <div class="col-lg-8 mx-auto viz">
+          <div class="mx-auto viz">
             <h2>Again, what is the average voltage per channel?</h2>
             <p class="lead">This is similar to the above simulation but we can see how roughly similar the behavior is.
               However, the behavior for the control group seems to have wider swings that the alcoholics, possibly
@@ -147,7 +153,7 @@
     <section id="electrode" class="bg-light">
       <div class="container viz">
         <div class="row">
-          <div class="col-lg-8 mx-auto viz">
+          <div class="mx-auto viz">
             <h2>Raw Electrical Activity at Electrodes</h2>
             <p class="lead">It can be helpful to watch the channel activity fluctuate through time to gain further
               insight into spatial relationships in the flow of electrical signals.  This is a 2D projection of the
@@ -162,7 +168,7 @@
     <section id="electrode-network">
       <div class="container viz">
         <div class="row">
-          <div class="col-lg-8 mx-auto viz">
+          <div class="mx-auto viz">
             <h2>Electrode Channel Networks</h2>
             <p class="lead">To look more closely at which channels are co-dependent, we fit a dynamic gaussian
               graphical model which connects two nodes in the graph if they are conditionally dependent on each other.
@@ -177,7 +183,7 @@
     <section id="subject-network">
       <div class="container viz">
         <div class="row">
-          <div class="col-lg-8 mx-auto viz">
+          <div class="mx-auto viz">
             <h2>Subject Network</h2>
             <p class="lead">Finally, we fit another dynamic gaussian graphical model to the data at the subject level,
               averaging over all channels. We might expect that alcoholic subjects are more related to alcoholics and
